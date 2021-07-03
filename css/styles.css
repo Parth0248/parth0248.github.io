@@ -1,0 +1,239 @@
+
+@import url(fonts.css);
+
+body {
+ /* background: linear-gradient(to right, #d9d3e7, #f1edf7); */
+  background-image: url(../img/pexels-faik-akmd-1025469.jpg) ;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.content {
+  padding: 15px;
+}
+
+
+
+.nav-txt a{
+  font-family: 'Lobster' !important; 
+  font-size: 20px;
+  /* border-radius: 10px; */
+}
+
+
+
+/* h1 {
+  font-family: 'wallington' !important; 
+  color: #9966cc;
+}
+h2 {
+    font-family: Candara;
+    color: #03ca88;
+}
+p {
+    font-family: courier,arial,helvetica;
+  color: black;
+} */
+
+.playfair{
+font-family: 'Playfair Display', serif;
+}
+.biorhym{
+  font-family: 'BioRhyme', serif;
+}
+
+.right-col{
+  /* position: static ; */
+  float: right;
+  margin-right: 3.7%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#mus-icon{
+  width: 45px;
+  cursor: pointer;
+}
+
+/* .bg1_prp{
+  width: 900px;
+  height: 600px;
+  margin-left: 15%;
+  border-radius: 15px;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profileimg{
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  transform: translate(-50% ,-50%);
+  overflow: hidden;
+  display: flex;
+}
+
+.profimg{
+  width: 320px;
+  height: 320px;
+  transition: .3s;
+}
+.one{
+  background: url(../img/WhatsApp\ Image\ 2021-06-30\ at\ 9.23.56\ PM.jpeg) center / cover;
+  z-index: -1;
+  transform: translateX(160px);
+  clip-path: polygon(50% 0, 65% 50% , 50% 100% , 0% 100%, 0 50% , 0 0);
+}
+.two{
+  background: url(../img/WhatsApp\ Image\ 2021-06-30\ at\ 9.23.56\ PM.jpeg) center / cover;
+  clip-path: polygon(100% 0, 100% 50% , 100% 100%, 50% 100%, 65% 50%, 50% 0);
+  transform: translateX(-160px) 
+}
+
+.proftext{
+  position: absolute;
+  right: 35%;
+  top: 25%;
+  width: 0;
+  height: 150px;
+  text-align:left ;
+  background: linear-gradient(to right, #fd736cde, #ff9068b9);  /*linear-gradient(to right, #297fb9f6, #2c3e50f3);*/
+  transition: .2s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  overflow: hidden;
+  font-family: 'Yatra One', cursive;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.proftext h4{
+  color: #c9dff3;
+  padding-top: 35px;
+  padding-left: 10px ;
+  font-size: 32px;
+}
+
+.profileimg:hover .one{
+transform: translateX(100px);
+}
+.profileimg:hover .two{
+transform: translateX(-100px);
+}
+
+.profileimg:hover .proftext{
+  width: 280px;
+} 
+
+.edubox{
+  width: 550px;
+  height: 100px;
+  border: 5px solid rgba(135, 207, 235, 0.822);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.61);
+}
+.edubox h4 , a{
+  font-family: 'BioRhyme', serif;
+  font-size: 18px;
+}
+
+.hobbyimg{
+  /* padding-left: px;   */
+  height: 400px;
+  width: 600px;
+}
+
+.hobbytext h3{
+  font-family: 'Arvo', serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fdb99b;
+  margin-top: 30%;
+}
+
+.rev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+}
+
+.rev div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reviewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:300px;
+}
+
+#send-btn {
+  font-family: 'Arvo', serif;
+  border-radius: 10%;
+  border: 3px solid gray ;
+  background-color: #077b8a94;
+  color: white;
+  width: 150px;
+  padding: 7px 15px 7px 15px;
+  margin: 7px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: white;
+  width: 100%;
+}
+ th,td{
+  font-family: 'BioRhyme', serif;
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 7px 15px 7px 15px;
+  width: 150px;
+}
+option {
+  background-color: transparent;
+  color: black;
+}
+label {
+  padding :7px;
+  width: 100px;
+}
+input{
+  font-family: 'BioRhyme' , serif;
+  width: 150px;
+}
+
+select {
+  border: 2px solid #cf8bf3;
+  background-color: white;
+  width:155px;
+  margin: 3px;
+  font-size: 15px;
+  font-family: 'BioRhyme', serif;
+}
+
+.contab {
+  border: 1px solid #f5c3a1 ;
+  padding: 4px;
+}
+
+.con_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

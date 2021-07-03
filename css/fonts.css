@@ -1,0 +1,51 @@
+/* my fonts */
+@font-face {
+  font-family: 'Dancing_Script';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/Lobster/Lobster-Regular.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/Lora/Lora-VariableFont_wght.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Southampton';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../img/fonts/Southampton/Southampton.ttf) format('woff');
+}
+@font-face {
+  font-family: 'tahu';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/tahu/Tahu!.ttf) format('woff');
+}
+@font-face {
+  font-family: 'julietta';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/Julietta/julietta.ttf) format('woff');
+}
+@font-face {
+  font-family: 'wallington';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/wallington-font/WallingtonRegular-PYK7.ttf) format('woff');
+}
+@font-face {
+  font-family: 'thunder';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(../img/fonts/thunder/ThunderDemo.otf) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo&family=BioRhyme&family=Poppins:ital,wght@1,200&display=swap');
